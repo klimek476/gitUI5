@@ -13,7 +13,7 @@ sap.ui.define([
             },
 
             buttonPressed: function(){
-                alert("BUTTON PRESSED");
+                alert("BUTTON PRESSED AND TESTED");
 
             }
         });
