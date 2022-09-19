@@ -10,6 +10,11 @@ sap.ui.define([
         return Controller.extend("gitui5.controller.View1", {
             onInit: function () {
 //testtest
+            },
+
+            buttonPressed: function(){
+                alert("BUTTON PRESSED");
+
             }
         });
     });
