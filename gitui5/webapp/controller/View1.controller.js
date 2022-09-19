@@ -13,8 +13,8 @@ sap.ui.define([
             },
 
             buttonPressed: function(){
+                console.log("conflict");
                 alert("BUTTON PRESSED");
-
             }
         });
     });
